@@ -1,0 +1,75 @@
+.property-card-wrapper {
+  height: 367px;
+  width: 520px;
+}
+
+.property-card-wrapper .overlap-group-2 {
+  border-radius: 80px;
+  height: 367px;
+  position: relative;
+}
+
+.property-card-wrapper .hybrid-servo-stepper-wrapper {
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+  backdrop-filter: blur(30px) brightness(100%);
+  background-color: #89d7ff1a;
+  border-radius: 80px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 520px;
+}
+
+.property-card-wrapper .hybrid-servo-stepper {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+}
+
+.property-card-wrapper .front-2 {
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+  backdrop-filter: blur(30px) brightness(100%);
+  background: linear-gradient(180deg, rgb(136.85, 214.91, 255) 0%, rgb(31.82, 176.75, 251.17) 100%);
+  border-radius: 80px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 520px;
+}
+
+.property-card-wrapper .high-performance {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 33.4px;
+  font-weight: 600;
+  left: 98px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 186px;
+}
+
+.property-card-wrapper .text-wrapper-5 {
+  color: #ffffff66;
+  font-family: "Basement Grotesque-Black", Helvetica;
+  font-size: 83.4px;
+  font-weight: 900;
+  left: 199px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+  white-space: nowrap;
+}

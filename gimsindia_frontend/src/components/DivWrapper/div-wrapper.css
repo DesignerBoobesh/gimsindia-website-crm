@@ -1,0 +1,75 @@
+.div-wrapper {
+  height: 367px;
+  width: 520px;
+}
+
+.div-wrapper .overlap-group-3 {
+  border-radius: 80px;
+  height: 367px;
+  position: relative;
+}
+
+.div-wrapper .precision-grade-ball-wrapper {
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+  backdrop-filter: blur(30px) brightness(100%);
+  background-color: #89d7ff1a;
+  border-radius: 80px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 520px;
+}
+
+.div-wrapper .precision-grade-ball {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 128px;
+}
+
+.div-wrapper .front-3 {
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+  backdrop-filter: blur(30px) brightness(100%);
+  background: linear-gradient(180deg, rgb(136.85, 214.91, 255) 0%, rgb(31.82, 176.75, 251.17) 100%);
+  border-radius: 80px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 520px;
+}
+
+.div-wrapper .precision-traverse {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 33.4px;
+  font-weight: 600;
+  left: 104px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 187px;
+}
+
+.div-wrapper .text-wrapper-6 {
+  color: #ffffff66;
+  font-family: "Basement Grotesque-Black", Helvetica;
+  font-size: 83.4px;
+  font-weight: 900;
+  left: 197px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 79px;
+  white-space: nowrap;
+}
