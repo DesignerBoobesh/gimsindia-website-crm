@@ -12,26 +12,47 @@
   gap: 32px;
   left: 16px;
   position: relative;
-  top: 15px;
+  top: 5px;
   width: 896px;
 }
 
-.menu-button .component {
+.menu-button .component,
+.menu-button .div,
+.menu-button .component-2 {
   align-items: center;
-  background: linear-gradient(180deg, rgb(136.85, 214.91, 255) 0%, rgb(31.82, 176.75, 251.17) 100%);
-  border-radius: 25px;
+  border-radius: 25px; /* Ensure border-radius is consistent if needed */
   box-shadow: 0px 4px 8px #00000030;
   display: flex;
   gap: 10px;
-  height: 65px;
+  height: 60px;
   justify-content: center;
   padding: 10px;
   position: relative;
-  width: 200px;
+  width: 180px;
+  top: 2px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover and active states */
 }
 
-.menu-button .text-wrapper {
+/* Hover styles */
+.component:hover,
+.div:hover,
+.component-2:hover {
+  background-color: #d0d0d0;
+  color: #000000;
+}
+
+/* Active styles */
+.component.active,
+.div.active,
+.component-2.active {
+  background: linear-gradient(112.29deg, #89D7FF 1.91%, #20B1FB 112.73%);
   color: #ffffff;
+  border-radius: 25px;
+}
+
+/* Specific styles for menu items */
+.menu-button .home {
+  color: #00000059;
   font-family: "Poppins-Bold", Helvetica;
   font-size: 24px;
   font-weight: 700;
@@ -39,18 +60,6 @@
   line-height: normal;
   position: relative;
   width: fit-content;
-}
-
-.menu-button .div {
-  align-items: center;
-  border-radius: 50px;
-  display: flex;
-  gap: 10px;
-  height: 65px;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-  width: 200px;
 }
 
 .menu-button .text-wrapper-2 {
@@ -66,14 +75,6 @@
 
 .menu-button .component-2 {
   -webkit-backdrop-filter: blur(65px) brightness(100%);
-  align-items: center;
   backdrop-filter: blur(65px) brightness(100%);
-  border-radius: 50px;
-  display: flex;
-  gap: 10px;
-  height: 65px;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-  width: 200px;
+  border-radius: 25px; /* Adjust if needed */
 }
