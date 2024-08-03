@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import "./Component12.css";
 
-const Component12 = ({ className = "" }) => {
+const Component12 = ({ className = '', onClick }) => {
   return (
-    <button className={`component-7 ${className}`}>
+    <div className={`component-7 ${className}`} onClick={onClick}>
       <a className="home">Home</a>
-    </button>
+    </div>
   );
 };
 

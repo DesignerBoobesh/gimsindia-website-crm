@@ -40,3 +40,12 @@
   max-width: 100%;
   z-index: 8;
 }
+
+.selected {
+  background: linear-gradient(112.29deg, #89d7ff, #20b1fb); /* Example selected background color */
+  color: white; /* Example selected text color */
+}
+
+.component-7:hover, .component-8:hover, .component-9:hover, component-10:hover {
+  background-color: #f0f0f0; /* Example hover background color */
+}

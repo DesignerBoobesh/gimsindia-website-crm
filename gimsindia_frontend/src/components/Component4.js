@@ -1,27 +1,38 @@
-import PropTypes from "prop-types";
-import "./Component4.css";
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import './Component4.css';
 
-const Component4 = ({ className = "" }) => {
+const Component4 = ({ className = '' }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div className={`component-29 ${className}`}>
-      <div className="back4">
-        <div className="back-item" />
-        <div className="high-strength-tungsten-carbide-container">
-          <p className="high-strength-tungsten-carbide">
-            High-strength tungsten carbide nozzle
-          </p>
-          <p className="high-strength-tungsten-carbide">
-            ensures a long lifespan and is easy
-          </p>
-          <p className="high-strength-tungsten-carbide">to replace.</p>
+    <div className={`component-29 ${className}`} onClick={handleClick}>
+      <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+        <div className="front4">
+          <div className="front-inner" />
+          <div className="center-content">
+            <div className="div2">05</div>
+            <div className="stainless-steel-catcher-container1">
+              <p className="stainless-steel-catcher">Tungsten carbide</p>
+              <p className="stainless-steel-catcher">Nozzle</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="front3">
-        <div className="front-item" />
-        <div className="div1">05</div>
-        <div className="tungsten-carbide-nozzle-container">
-          <p className="high-strength-tungsten-carbide">Tungsten carbide</p>
-          <p className="high-strength-tungsten-carbide">Nozzle</p>
+        <div className="back5">
+          <div className="back-inner" />
+          <div className="stainless-steel-catcher-container">
+            <p className="stainless-steel-catcher">
+            High-strength tungsten carbide nozzle
+            </p>
+            <p className="stainless-steel-catcher">
+            ensures a long lifespan and is easy
+            </p>
+            <p className="stainless-steel-catcher">to replace.</p>
+          </div>
         </div>
       </div>
     </div>

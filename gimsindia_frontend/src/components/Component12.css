@@ -1,24 +1,21 @@
 .home {
   text-decoration: none;
   position: relative;
-  font-size: var(--font-size-4xl-1);
   font-weight: 700;
-  font-family: var(--font-poppins);
-  color: var(--color-white);
-  text-align: left;
+  color: inherit;
   display: inline-block;
-  min-width: 71px;
+  min-width: 97px;
 }
 .component-7 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-sm-8) var(--padding-41xl);
-  background-color: transparent;
-  box-shadow: 0 3.9px 7.71px rgba(0, 0, 0, 0.19);
-  border-radius: 24.08px;
-  background: linear-gradient(112.29deg, #89d7ff, #20b1fb);
+  backdrop-filter: blur(62.6px);
+  border-radius: 48.16px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: var(--padding-sm-8) var(--padding-24xl);
+  text-align: left;
+  font-size: var(--font-size-4xl-1);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
 }

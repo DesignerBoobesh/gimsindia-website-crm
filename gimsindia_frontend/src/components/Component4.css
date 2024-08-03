@@ -1,4 +1,41 @@
-.back-item {
+.component-29 {
+  height: 292.5px;
+  flex: 1 1;
+  position: relative;
+  min-width: 355px;
+  max-width: 52%;
+  text-align: center;
+  font-size: var(--font-size-4xl-1);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.front4, .back5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back5 {
+  transform: rotateY(180deg);
+}
+
+.back-inner {
   position: absolute;
   top: 0;
   left: 0;
@@ -10,50 +47,50 @@
   width: 100%;
   height: 100%;
 }
-.high-strength-tungsten-carbide {
+
+.stainless-steel-catcher {
   margin: 0;
 }
-.high-strength-tungsten-carbide-container {
+
+.stainless-steel-catcher-container {
   position: absolute;
   top: 125.2px;
-  left: calc(50% - 222.5px);
+  left: calc(50% - 226.4px);
   z-index: 1;
 }
-.back4,
-.front-item {
+
+.front-inner {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-}
-.back4 {
-  left: 500.8px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-}
-.front-item {
   left: 0;
   border-radius: 77.05px;
   background: linear-gradient(112.29deg, #89d7ff, #20b1fb);
 }
-.div1 {
+
+.div2,
+.stainless-steel-catcher-container1 {
   position: absolute;
-  top: 77.1px;
-  left: 187.8px;
   font-weight: 900;
   z-index: 1;
 }
-.tungsten-carbide-nozzle-container {
-  position: absolute;
-  top: 181.1px;
-  left: 105.9px;
+
+.div2 {
+  top: 46.3px;
+  left: 188.7px;
+}
+
+.stainless-steel-catcher-container1 {
+  top: 151.1px;
+  left: 107.9px;
   font-size: var(--font-size-13xl-2);
   font-weight: 600;
   font-family: var(--font-poppins);
   color: var(--color-white);
-  z-index: 1;
 }
-.front3 {
+
+.front4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -64,33 +101,24 @@
   color: var(--color-gray-300);
   font-family: var(--font-basement-grotesque);
 }
-.component-29 {
-  height: 353.5px;
-  flex: 1;
-  position: relative;
-  min-width: 376px;
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-4xl-1);
-  color: var(--color-white);
-  font-family: var(--font-poppins);
-}
+
 @media screen and (max-width: 825px) {
-  .div1 {
+  .div2 {
     font-size: var(--font-size-21xl);
   }
-  .tungsten-carbide-nozzle-container {
+  .stainless-steel-catcher-container1 {
     font-size: var(--font-size-7xl);
   }
 }
+
 @media screen and (max-width: 450px) {
-  .high-strength-tungsten-carbide-container {
+  .stainless-steel-catcher-container {
     font-size: var(--font-size-lg);
   }
-  .div1 {
+  .div2 {
     font-size: var(--font-size-5xl);
   }
-  .tungsten-carbide-nozzle-container {
+  .stainless-steel-catcher-container1 {
     font-size: var(--font-size-lgi);
   }
   .component-29 {

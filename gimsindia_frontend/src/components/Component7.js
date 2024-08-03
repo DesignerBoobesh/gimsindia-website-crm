@@ -1,28 +1,43 @@
 import Front from "./Front";
 import PropTypes from "prop-types";
 import "./Component7.css";
+import React, { useState } from 'react';
+
 
 const Component7 = ({ className = "" }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div className={`component-23 ${className}`}>
-      <div className="back1">
-        <div className="background-pair3" />
-        <div className="hybrid-servo-stepper-container">
-          <p className="hybrid-servo-stepper">
-            Hybrid servo stepper in the closed-loop
-          </p>
-          <p className="hybrid-servo-stepper">
-            control system ensures accurate
-          </p>
-          <p className="hybrid-servo-stepper">movement and lower energy</p>
-          <p className="hybrid-servo-stepper">consumption</p>
+    <div className={`component-23 ${className}`} onClick={handleClick}>
+      <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+      <div className="front4">
+          <div className="front-inner" />
+          <div className="center-content">
+            <div className="div2">02</div>
+            <div className="stainless-steel-catcher-container1">
+              <p className="stainless-steel-catcher">High Performance</p>
+              <p className="stainless-steel-catcher">motors and drivers</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <Front
-        highPerformance="High Performance"
-        motorsAndDrivers="motors and drivers"
-        frontDescription="02"
-      />
+        <div className="back5">
+          <div className="back-inner" />
+          <div className="stainless-steel-catcher-container">
+            <p className="stainless-steel-catcher">
+            Hybrid servo stepper in the closed-loop
+            </p>
+            <p className="stainless-steel-catcher">
+            control system ensures accurate
+            </p>
+            <p className="stainless-steel-catcher">movement and lower energy</p>
+            <p className="stainless-steel-catcher">consumption.</p>
+          </div>
+        </div>
+    </div>
     </div>
   );
 };

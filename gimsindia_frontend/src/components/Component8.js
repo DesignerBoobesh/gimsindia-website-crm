@@ -1,28 +1,37 @@
 import PropTypes from "prop-types";
 import "./Component8.css";
+import React, { useState } from 'react';
 
 const Component8 = ({ className = "" }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
   return (
-    <div className={`component-21 ${className}`}>
-      <div className="back">
-        <div className="background-pair" />
-        <div className="high-end-microcontroller-based-container">
-          <p className="high-end-microcontroller-based">
-            High-end microcontroller based control
-          </p>
-          <p className="high-end-microcontroller-based">
-            system ensures smooth operation,
-          </p>
-          <p className="high-end-microcontroller-based">
-            precise cutting quality, and high
-          </p>
-          <p className="high-end-microcontroller-based">realiablity.</p>
+    <div className={`component-21 ${className}`} onClick={handleClick}>
+      <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+        <div className="front4">
+          <div className="front-inner" />
+          <div className="center-content">
+            <div className="div2">01</div>
+            <div className="stainless-steel-catcher-container1">
+              <p className="stainless-steel-catcher">Most Reliable Controller</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="front">
-        <div className="background-pair1" />
-        <div className="most-reliable-controller">Most Reliable Controller</div>
-        <div className="front-description">01</div>
+        <div className="back5">
+          <div className="back-inner" />
+          <div className="stainless-steel-catcher-container">
+            <p className="stainless-steel-catcher">
+              High-end microcontroller based control
+            </p>
+            <p className="stainless-steel-catcher">
+              system ensures smooth operation,
+            </p>
+            <p className="stainless-steel-catcher">realiablity.</p>
+          </div>
+        </div>
       </div>
     </div>
   );

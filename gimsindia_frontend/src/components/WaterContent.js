@@ -121,121 +121,27 @@ const WaterContent = ({ className = "" }) => {
         <div className="group3">
           <div className="group4">
             <div className="group5">
-              <img
-                className="element-part-icon14"
-                alt=""
-                src="/rectangle-16@2x.png"
-              />
-              <img
-                className="element-part-icon15"
-                alt=""
-                src="/rectangle-17@2x.png"
-              />
-            </div>
-            <img
-              className="element-part-icon16"
-              alt=""
-              src="/rectangle-18@2x.png"
-            />
-            <img
-              className="element-part-icon17"
-              alt=""
-              src="/rectangle-19@2x.png"
-            />
-            <img
-              className="element-part-icon18"
-              alt=""
-              src="/rectangle-20@2x.png"
-            />
-            <img
-              className="element-part-icon19"
-              loading="lazy"
-              alt=""
-              src="/rectangle-21@2x.png"
-            />
-            <img
-              className="element-part-icon20"
-              alt=""
-              src="/rectangle-22@2x.png"
-            />
-            <img
-              className="element-part-icon21"
-              alt=""
-              src="/rectangle-23@2x.png"
-            />
-            <img
-              className="group-icon10"
-              loading="lazy"
-              alt=""
-              src="/group-9@2x.png"
-            />
-            <img
-              className="element-part-icon22"
-              alt=""
-              src="/rectangle-24@2x.png"
-            />
-            <img
-              className="element-part-icon23"
-              alt=""
-              src="/rectangle-25@2x.png"
-            />
-            <img
-              className="element-part-icon24"
-              alt=""
-              src="/rectangle-26@2x.png"
-            />
-            <img
-              className="element-part-icon25"
-              alt=""
-              src="/rectangle-27@2x.png"
-            />
-            <img
-              className="element-part-icon26"
-              loading="lazy"
-              alt=""
-              src="/rectangle-28@2x.png"
-            />
-            <img
-              className="rectangle-icon2"
-              alt=""
-              src="/rectangle-29@2x.png"
-            />
-            <img className="group-icon11" alt="" src="/group-10@2x.png" />
-            <img className="group-icon12" alt="" src="/group-11@2x.png" />
-            <img className="group-icon13" alt="" src="/group-12@2x.png" />
-            <img className="group-icon14" alt="" src="/group-13@2x.png" />
-            <img className="group-icon15" alt="" src="/group-14@2x.png" />
-            <img className="group-icon16" alt="" src="/group-15@2x.png" />
-            <img className="group-icon17" alt="" src="/group-16@2x.png" />
-            <img
-              className="rectangle-icon3"
-              alt=""
-              src="/rectangle-30@2x.png"
-            />
-            <img
-              className="rectangle-icon4"
-              alt=""
-              src="/rectangle-31@2x.png"
-            />
-            <div className="component-21-parent">
-              <Component8 />
-              <Component7 />
-              <Component6 />
-            </div>
-            <div className="component-27-parent">
-              <Component5 />
-              <Component4 />
-              <Component3 />
+
+              <div className="component-21-parent">
+                <Component8 />
+                <Component7 />
+                <Component6 />
+              </div>
+              <div className="component-27-parent">
+                <Component5 />
+                <Component4 />
+                <Component3 />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+      </div>
+      );
 };
 
-WaterContent.propTypes = {
-  className: PropTypes.string,
+      WaterContent.propTypes = {
+        className: PropTypes.string,
 };
 
-export default WaterContent;
+      export default WaterContent;
