@@ -1,0 +1,99 @@
+.back-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(28.89px);
+  border-radius: 77.05px;
+  background-color: var(--color-lightskyblue-200);
+  border: 1.9px solid var(--color-deepskyblue-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.high-strength-tungsten-carbide {
+  margin: 0;
+}
+.high-strength-tungsten-carbide-container {
+  position: absolute;
+  top: 125.2px;
+  left: calc(50% - 222.5px);
+  z-index: 1;
+}
+.back4,
+.front-item {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.back4 {
+  left: 500.8px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.front-item {
+  left: 0;
+  border-radius: 77.05px;
+  background: linear-gradient(112.29deg, #89d7ff, #20b1fb);
+}
+.div1 {
+  position: absolute;
+  top: 77.1px;
+  left: 187.8px;
+  font-weight: 900;
+  z-index: 1;
+}
+.tungsten-carbide-nozzle-container {
+  position: absolute;
+  top: 181.1px;
+  left: 105.9px;
+  font-size: var(--font-size-13xl-2);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  z-index: 1;
+}
+.front3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  font-size: var(--font-size-61xl-3);
+  color: var(--color-gray-300);
+  font-family: var(--font-basement-grotesque);
+}
+.component-29 {
+  height: 353.5px;
+  flex: 1;
+  position: relative;
+  min-width: 376px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-4xl-1);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 825px) {
+  .div1 {
+    font-size: var(--font-size-21xl);
+  }
+  .tungsten-carbide-nozzle-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .high-strength-tungsten-carbide-container {
+    font-size: var(--font-size-lg);
+  }
+  .div1 {
+    font-size: var(--font-size-5xl);
+  }
+  .tungsten-carbide-nozzle-container {
+    font-size: var(--font-size-lgi);
+  }
+  .component-29 {
+    min-width: 100%;
+  }
+}

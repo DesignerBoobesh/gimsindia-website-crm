@@ -1,0 +1,54 @@
+.background-pair4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(28.89px);
+  border-radius: 77.05px;
+  background-color: var(--color-lightskyblue-200);
+  border: 1.9px solid var(--color-deepskyblue-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.precision-grade-ball-screw {
+  margin: 0;
+}
+.precision-grade-ball-screw-container {
+  position: absolute;
+  top: 125.2px;
+  left: calc(50% - 208px);
+  z-index: 1;
+}
+.back2 {
+  position: absolute;
+  top: 0;
+  left: 500.8px;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.component-25 {
+  height: 353.5px;
+  flex: 1;
+  position: relative;
+  min-width: 376px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-4xl-1);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 825px) {
+  .component-25 {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .precision-grade-ball-screw-container {
+    font-size: var(--font-size-lg);
+  }
+  .component-25 {
+    min-width: 100%;
+  }
+}

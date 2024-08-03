@@ -1,0 +1,22 @@
+.about-us1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 106px;
+  white-space: nowrap;
+}
+.component-10 {
+  backdrop-filter: blur(62.6px);
+  border-radius: 48.16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm-8) var(--padding-24xl);
+  text-align: left;
+  font-size: var(--font-size-4xl-1);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

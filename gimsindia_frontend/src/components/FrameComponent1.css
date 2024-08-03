@@ -1,0 +1,89 @@
+.economics {
+  margin: 0;
+}
+.economics-prizing {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 1px 0 0#edf7ff, 0 1px 0#edf7ff, -1px 0 0#edf7ff, 0-1px 0#edf7ff;
+}
+.pricing-values {
+  width: 400px;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lightskyblue-200);
+  border: 1px solid var(--color-deepskyblue-100);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-22xl);
+  max-width: 100%;
+}
+.less-noise {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 1px 0 0#edf7ff, 0 1px 0#edf7ff, -1px 0 0#edf7ff, 0-1px 0#edf7ff;
+}
+.pricing-values2 {
+  width: 400px;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lightskyblue-200);
+  border: 1px solid var(--color-deepskyblue-100);
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-28xl) var(--padding-xl);
+  white-space: nowrap;
+}
+.pricing-points,
+.pricing-points-wrapper,
+.pricing-values2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricing-points {
+  flex: 1;
+  overflow-x: auto;
+  justify-content: space-between;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.pricing-points-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-aliceblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .pricing-points {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .economics-prizing {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .economics-prizing {
+    font-size: var(--font-size-2xl);
+  }
+}

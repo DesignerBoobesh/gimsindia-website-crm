@@ -1,0 +1,415 @@
+.footer-divider,
+.logo-icon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 8;
+}
+.logo-icon {
+  height: 63.6px;
+  width: 60.7px;
+  bottom: 0.2px;
+  left: 24.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footer-divider {
+  height: 64.5px;
+  width: 1px;
+  bottom: -0.7px;
+  left: 100.1px;
+  border-right: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.guhan-industrial-and {
+  margin: 0;
+}
+.guhan-industrial-and-container {
+  position: relative;
+  font-weight: 800;
+  z-index: 8;
+}
+.company-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.company-details {
+  width: 1428.3px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.company-details,
+.footer-information,
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-information {
+  flex: 1;
+  justify-content: flex-end;
+}
+.footer-top {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.subtract-icon {
+  height: 1039.1px;
+  width: 1437px;
+  position: absolute;
+  margin: 0 !important;
+  top: -155.5px;
+  right: -538.7px;
+  border-radius: 77.05px;
+  z-index: 6;
+}
+.product-highlight-child {
+  height: 855.3px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 7;
+}
+.katana {
+  height: 288.9px;
+  width: 1336.8px;
+  position: absolute;
+  font-family: 'Basement Grotesque';
+  font-style: normal;
+font-weight: 800;
+font-size: 281.621px;
+line-height: 338px;
+  margin: 0 !important;
+  top: 13.5px;
+  right: -478.6px;
+  font-weight: 900;
+  background: linear-gradient(90deg, #fff, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  z-index: 8;
+}
+/* width: 1336.85px;
+height: 288.94px;
+
+font-family: 'Basement Grotesque';
+font-style: normal;
+font-weight: 800;
+font-size: 281.621px;
+line-height: 338px;
+
+background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; */
+.group-icon1 {
+  height: 1528px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-child,
+.frame-item {
+  height: 910px;
+  width: 0.5px;
+  position: absolute;
+  margin: 0 !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    #fff 48.13%,
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 2;
+}
+.frame-child {
+  right: 348.5px;
+  bottom: 213.8px;
+}
+.frame-item {
+  bottom: 196.8px;
+  left: 349.5px;
+}
+.group-parent {
+  position: absolute;
+  top: 1042.8px;
+  left: 0;
+  width: 1318.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ellipse-div,
+.frame-child1,
+.frame-child2,
+.frame-inner {
+  position: absolute;
+  top: 1748px;
+  left: 345.5px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue-100);
+  width: 8px;
+  height: 8px;
+  z-index: 3;
+}
+.ellipse-div,
+.frame-child1,
+.frame-child2 {
+  top: 2045px;
+}
+.frame-child1,
+.frame-child2 {
+  left: 965.5px;
+}
+.frame-child2 {
+  top: 1748px;
+}
+.mask-group-icon,
+.r6-2-icon {
+  position: absolute;
+  top: 118.7px;
+  left: 824.2px;
+  width: 619.3px;
+  height: 879.4px;
+  object-fit: cover;
+  z-index: 9;
+}
+.r6-2-icon {
+  top: 266.1px;
+  left: 438px;
+  width: 944.8px;
+  height: 714.7px;
+  z-index: 10;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 410px;
+  width: 1728px;
+  height: 1117px;
+  z-index: 11;
+}
+.frame-parent4,
+.product-highlight {
+  margin: 0 !important;
+  position: absolute;
+}
+.frame-parent4 {
+  height: 2570.8px;
+  width: 1523.5px;
+  right: -765.7px;
+  bottom: -1618px;
+}
+.product-highlight {
+  width: 855.3px;
+  top: 0;
+  left: 2.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.series {
+  align-self: stretch;
+  height: 164px;
+  position: relative;
+  font-size: var(--font-size-117xl-4);
+  font-weight: 900;
+  display: inline-block;
+  -webkit-text-stroke: 2.7px #fff;
+  z-index: 8;
+}
+.explore-the-suspension {
+  line-height: 47.2px;
+}
+.explore-the-suspension,
+.katana-series {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 8;
+}
+.explore-the-suspension-tech-parent,
+.showcase-content,
+.slogan-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.explore-the-suspension-tech-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xs-3);
+}
+.showcase-content,
+.slogan-container {
+  box-sizing: border-box;
+}
+.slogan-container {
+  width: 491.3px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-14xl-7);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.showcase-content {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-283xl-5) 0 var(--padding-249xl-3);
+  position: relative;
+  gap: var(--gap-4xl-8);
+}
+.download-button-icon {
+  width: 23.1px;
+  height: 23.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-9) 0 0;
+}
+.download-boucher {
+  position: relative;
+  font-size: var(--font-size-4xl-1);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.brochure-download {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl-3) var(--padding-33xl);
+  background-color: var(--color-white);
+  border-radius: 33.71px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-3xs-6);
+  max-width: 100%;
+  z-index: 8;
+  margin-top: -194.5px;
+}
+.product-showcase {
+  width: 1336.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 855px;
+  margin-top: -0.5px;
+  font-size: var(--font-size-262xl-6);
+  color: transparent;
+  font-family: var(--font-basement-grotesque);
+}
+.footer-content,
+.footer-content-wrapper,
+.product-showcase {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-content-wrapper {
+  width: 1702.9px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-60xl) var(--padding-xl-2);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-2xl-2);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1500px) {
+  .company-name {
+    display: none;
+  }
+  .company-details {
+    width: 1020.3px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .guhan-industrial-and-container {
+    display: none;
+  }
+  .showcase-content {
+    padding-top: var(--padding-xl-5);
+    padding-bottom: var(--padding-155xl);
+    box-sizing: border-box;
+  }
+  .footer-content-wrapper {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .katana {
+    font-size: var(--font-size-94xl);
+  }
+  .series {
+    font-size: var(--font-size-36xl);
+  }
+  .explore-the-suspension {
+    line-height: 38px;
+  }
+  .explore-the-suspension,
+  .katana-series {
+    font-size: var(--font-size-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .guhan-industrial-and-container {
+    font-size: var(--font-size-mid);
+  }
+  .katana {
+    font-size: var(--font-size-51xl);
+  }
+  .series {
+    font-size: var(--font-size-15xl);
+  }
+  .explore-the-suspension {
+    line-height: 28px;
+  }
+  .explore-the-suspension,
+  .katana-series {
+    font-size: var(--font-size-xl);
+  }
+  .showcase-content {
+    padding-bottom: var(--padding-94xl);
+    box-sizing: border-box;
+  }
+  .download-boucher {
+    font-size: var(--font-size-lg);
+  }
+  .brochure-download {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

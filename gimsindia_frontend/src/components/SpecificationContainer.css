@@ -1,0 +1,44 @@
+.industrial-application {
+  height: 94px;
+  width: 1174px;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  backdrop-filter: blur(32.76px);
+  max-width: 100%;
+  z-index: 2;
+}
+.industrial-application-wrapper,
+.specification-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.industrial-application-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  margin-top: -201px;
+}
+.specification-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 1648px;
+  margin-top: -134px;
+  text-align: left;
+  font-size: var(--font-size-59xl-6);
+  color: var(--color-deepskyblue-100);
+  font-family: var(--font-basement-grotesque);
+}
+@media screen and (max-width: 825px) {
+  .industrial-application {
+    font-size: var(--font-size-44xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .industrial-application {
+    font-size: var(--font-size-28xl);
+  }
+}
