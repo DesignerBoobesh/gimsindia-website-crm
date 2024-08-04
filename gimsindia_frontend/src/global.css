@@ -6,6 +6,7 @@ body {
   line-height: normal;
 }
 :root {
+  --animation-duration: 20s;
   /* fonts */
   --font-poppins: Poppins;
   --font-inter: Inter;

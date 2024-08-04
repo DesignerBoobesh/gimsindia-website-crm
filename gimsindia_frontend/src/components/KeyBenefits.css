@@ -27,6 +27,10 @@
   flex-shrink: 0;
   justify-content: flex-start;
   padding: var(--padding-xl) var(--padding-22xl);
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+.benefit-values:hover {
+  box-shadow: 0 0 10px 4px rgba(0, 191, 255, 0.7); /* Adjust color and size for desired glow */
 }
 .benefit-items {
   width: 1728px;
@@ -72,6 +76,10 @@
   flex-shrink: 0;
   justify-content: flex-start;
   padding: var(--padding-xl) var(--padding-22xl);
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+.benefit-values-two:hover {
+  box-shadow: 0 0 10px 4px rgba(0, 191, 255, 0.7); /* Adjust color and size for desired glow */
 }
 .multiple-industries-applicatio-container {
   margin: 0;
@@ -93,6 +101,10 @@
   justify-content: flex-start;
   padding: var(--padding-xl) var(--padding-22xl);
   max-width: 100%;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
+}
+.benefit-values-two1:hover {
+  box-shadow: 0 0 10px 4px rgba(0, 191, 255, 0.7); /* Adjust color and size for desired glow */
 }
 .co2-savings {
   flex: 1;

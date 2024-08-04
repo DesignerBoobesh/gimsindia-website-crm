@@ -1,65 +1,43 @@
-import Component from "./Component";
 import Component1 from "./Component1";
 import PropTypes from "prop-types";
 import "./FrameComponent3.css";
 
 const FrameComponent3 = ({ className = "" }) => {
+  const images = [
+    {
+      src: "/milling444493-1280-1@2x.png",
+      text: "Milling Industry",
+    },
+    {
+      src: "/floor1735046-1280-1@2x.png",
+      text: "Tiles",
+    },
+    {
+      src: "/soldering7897827-1280-1@2x.png",
+      text: "Soldering",
+    },
+    {
+      src: "/pile1868894-1920-1@2x.png",
+      text: "Tyre",
+    },
+    {
+      src: "/package4275116-1280-1@2x.png",
+      text: "Packaging",
+    },
+  ];
+
   return (
     <section className={`frame-parent5 ${className}`}>
       <div className="container">
-        <div className="scrolling-wrapper">
-          <Component1
-            metal878346519201="/milling444493-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Milling Industry"
-          />
-          <Component1
-            metal878346519201="/floor1735046-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Tiles"
-          />
-          <Component1
-            metal878346519201="/soldering7897827-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Soldering"
-          />
-          <Component1
-            metal878346519201="/pile1868894-1920-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Tyre"
-          />
-          <Component1
-            metal878346519201="/package4275116-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Packaging"
-          />
-        </div>
-        <div className="scrolling-wrapper">
-          <Component1
-            metal878346519201="/milling444493-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Milling Industry"
-          />
-          <Component1
-            metal878346519201="/floor1735046-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Tiles"
-          />
-          <Component1
-            metal878346519201="/soldering7897827-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Soldering"
-          />
-          <Component1
-            metal878346519201="/pile1868894-1920-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Tyre"
-          />
-          <Component1
-            metal878346519201="/package4275116-1280-1@2x.png"
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry="Packaging"
-          />
+        <div className="scrolling-wrapper-1">
+          {[...images, ...images].map((image, index) => (
+            <Component1
+              key={index}
+              metal878346519201={image.src}
+              rectangle39479="/rectangle-39479.svg"
+              metalIndustry={image.text}
+            />
+          ))}
         </div>
       </div>
       <div className="frame-parent6">

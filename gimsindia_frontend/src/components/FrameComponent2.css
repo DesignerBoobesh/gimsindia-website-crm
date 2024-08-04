@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -31,16 +32,6 @@ body {
   width: 100%;
 }
 
-.scrolling-wrapper {
-  display: flex;
-  animation: scroll-horizontal 20s linear infinite;
-}
-
-.scrolling-wrapper > * {
-  margin-right: 16px; /* Adjust this value for desired spacing */
-}
-
-
 
 .image-container {
   display: flex;
@@ -49,7 +40,8 @@ body {
   justify-content: center;
   width: 200px;
   flex-shrink: 0;
-  margin: 0 20px; /* Adjust margin for spacing */
+  margin: 0 20px;
+  /* Adjust margin for spacing */
 }
 
 .image-wrapper {
@@ -82,21 +74,58 @@ body {
 }
 
 @keyframes scroll-horizontal {
-  0% {
-    transform: translateX(0%);
+  from {
+    transform: translateX(0);
   }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translateX(-50%);
   }
 }
 
-.areospace, .civil-works, .automotive, .grenade {
+.frame-wrapper1 {
+  overflow: hidden;
+  position: relative;
+  width: 100vw; /* Full viewport width */
+}
+
+.scrolling-wrapper {
+  display: flex;
+  white-space: nowrap; /* Prevent wrapping */
+  animation: scroll-horizontal linear infinite;
+}
+
+.scrolling-wrapper > * {
+  display: inline-block;
+  margin-right: 16px; /* Adjust spacing between items */
+}
+
+/* Pause scrolling on hover */
+.scrolling-wrapper:hover {
+  animation-play-state: paused;
+}
+
+/* Adjust the animation duration dynamically */
+.frame-wrapper1 {
+  --animation-duration: calc(20s * var(--scroll-speed, 1));
+}
+
+.scrolling-wrapper {
+  animation-duration: var(--animation-duration);
+}
+
+
+.areospace,
+.civil-works,
+.automotive,
+.grenade {
   font-size: 18px;
   font-weight: 600;
   font-family: Arial, sans-serif;
 }
 
-.areospace-wrapper, .civil-works-wrapper, .automotive-wrapper {
+.areospace-wrapper,
+.civil-works-wrapper,
+.automotive-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -105,13 +134,56 @@ body {
 
 /* Adjustments for different screen sizes */
 @media screen and (max-width: 825px) {
-  .areospace, .automotive, .civil-works, .grenade {
+
+  .areospace,
+  .automotive,
+  .civil-works,
+  .grenade {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .areospace, .automotive, .civil-works, .grenade {
+
+  .areospace,
+  .automotive,
+  .civil-works,
+  .grenade {
     font-size: 14px;
   }
 }
+
+@keyframes scroll-horizontal-1 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.frame-parent5 {
+  overflow: hidden;
+  position: relative;
+  width: 100vw; /* Full viewport width */
+}
+
+.scrolling-wrapper-1 {
+  display: flex;
+  white-space: nowrap; /* Prevent wrapping */
+  animation: scroll-horizontal-1 var(--animation-duration) linear infinite;
+  width: calc(200% + 16px); /* Adjust width to accommodate duplicated content and margin */
+}
+
+/* Adjust spacing between items */
+.scrolling-wrapper-1 > * {
+  display: inline-block;
+  margin-right: 16px; /* Adjust spacing between items */
+}
+
+/* Pause scrolling on hover */
+.scrolling-wrapper-1:hover {
+  animation-play-state: paused;
+}
+
