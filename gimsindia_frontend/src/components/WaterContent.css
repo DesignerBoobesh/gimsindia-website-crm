@@ -33,7 +33,7 @@
   position: absolute;
   height: 52.6%;
   width: 69.62%;
-  top: 36.36%;
+  top: 12.36%;
   right: 15.45%;
   bottom: 11.04%;
   left: 14.93%;
@@ -45,7 +45,7 @@
 .element-part-icon3 {
   height: -14.34%;
   width: 99.93%;
-  top: 114.34%;
+  top: 37%;
   right: 0;
   bottom: 0;
   left: 0.07%;
@@ -54,7 +54,7 @@
 .element-part-icon4 {
   height: 66.49%;
   width: 83.73%;
-  top: 9.09%;
+  top: -10.09%;
   right: 14.63%;
   bottom: 24.42%;
   left: 1.64%;
@@ -94,7 +94,7 @@
 .group-icon2 {
   height: 18.7%;
   width: 8.39%;
-  top: 14.81%;
+  top: -3%;
   right: 10.48%;
   bottom: 66.49%;
   left: 81.13%;
@@ -289,15 +289,21 @@
   font-weight: 900;
 }
 .katana-sj150-overview {
-  top: 113px;
-  left: 254px;
+  position: relative; 
+  top: -150px;
+  left: 250px;
+  font-family: 'Basement Grotesque', sans-serif;
   backdrop-filter: blur(37.87px);
   z-index: 4;
+  font-size: 1.2em; 
+  color: #1998e7;
 }
+
 .sj150 {
-  top: 240.4px;
+  top: -60px;
   left: 347.1px;
   font-size: var(--font-size-322xl);
+  font-family: 'Basement Grotesque', sans-serif;
   color: var(--color-steelblue-100);
   display: inline-block;
   min-height: 409px;
@@ -305,7 +311,7 @@
 }
 .front-view-1 {
   position: absolute;
-  top: 491px;
+  top: 220px;
   left: 487px;
   width: 904px;
   height: 590px;
@@ -646,8 +652,8 @@
   position: absolute;
 }
 .group4 {
-  top: 0;
-  left: 0;
+  top: -350px;
+  left: 8%;
   width: 100%;
   height: 100%;
   max-width: 100%;
@@ -656,7 +662,7 @@
   top: 992px;
   left: -62px;
   width: 1887.2px;
-  height: 1079.6px;
+  height: 888.6px;
   opacity: 0.2;
   z-index: 1;
   text-align: center;

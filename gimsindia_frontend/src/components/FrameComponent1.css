@@ -65,10 +65,14 @@
   flex: 1;
   overflow-x: auto;
   justify-content: space-between;
-  padding: 0 var(--padding-61xl);
-  gap: var(--gap-xl);
+  padding-left: 50px; /* Set a small left-side gap */
+  padding-right: var(--padding-61xl); /* Keep the original right padding */
+  gap: 100px; /* Reduce the gap between items */
   z-index: 1;
+  position: relative; /* Ensure the left property works */
+  left: 50px;
 }
+
 .pricing-points-wrapper {
   align-self: stretch;
   justify-content: flex-start;
@@ -78,6 +82,7 @@
   color: var(--color-aliceblue);
   font-family: var(--font-poppins);
 }
+
 @media screen and (max-width: 1200px) {
   .pricing-points {
     padding-left: var(--padding-21xl);

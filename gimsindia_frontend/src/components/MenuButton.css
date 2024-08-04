@@ -16,9 +16,9 @@
   justify-content: flex-start;
 }
 .menu-dropdown {
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 0px;
+  left: 0px;
+  width: 97.5%;
   height: 100%;
   max-width: 100%;
 }
@@ -26,7 +26,7 @@
   margin: 0;
   top: 14.4px;
   left: 15.4px;
-  gap: var(--gap-11xl-9);
+  gap: calc(var(--gap-11xl-9) - 4px);
   z-index: 1;
   text-align: left;
   font-size: var(--font-size-4xl-1);

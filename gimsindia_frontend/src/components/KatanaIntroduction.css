@@ -52,13 +52,14 @@
 }
 .empty-container-icon {
   align-self: stretch;
-  height: 885px;
+  height: 1200px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
   z-index: 4;
+  top: -300px
 }
 .video-container {
   position: relative;

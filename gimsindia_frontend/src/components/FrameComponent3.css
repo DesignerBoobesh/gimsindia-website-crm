@@ -91,14 +91,16 @@
   position: relative;
   max-width: 100%;
   z-index: 3;
+  left:90px
 }
 .our-clients {
   height: 94px;
   width: 100%;
   position: absolute;
+  font-family: 'Basement Grotesque', sans-serif;
   margin: 0 !important;
   top: 152px;
-  left: 0;
+  left: 90px;
   font-weight: 900;
   display: inline-block;
   backdrop-filter: blur(32.76px);
@@ -125,6 +127,7 @@
     #20b1fb 48.13%,
     rgba(32, 177, 251, 0)
   );
+  left: 100px;
 }
 .icon2 {
   height: 200px;
@@ -134,6 +137,7 @@
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
+  left: 80px
 }
 .wrapper {
   align-self: stretch;
@@ -152,6 +156,7 @@
   font-size: inherit;
   font-weight: 600;
   font-family: inherit;
+  left: 90px;
 }
 .frame-parent7,
 .frame-wrapper2,
@@ -197,6 +202,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 5;
+  left: 80px
 }
 .client-logo-names {
   align-self: stretch;
@@ -214,6 +220,7 @@
   font-weight: 600;
   font-family: inherit;
   z-index: 5;
+  left: 100px;
 }
 .client-logo-names-parent {
   align-self: stretch;
@@ -259,6 +266,7 @@
   background-color: var(--color-white);
   overflow: hidden;
   flex-shrink: 0;
+  left: 80px
 }
 .client-logo-pair-inner1 {
   flex: 1;
@@ -296,6 +304,7 @@
   font-size: var(--font-size-21xl);
   color: var(--color-steelblue-200);
   font-family: var(--font-inter);
+  left: 100px;
 }
 .frame-parent5,
 .frame-parent6 {

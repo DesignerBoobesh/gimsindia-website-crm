@@ -56,8 +56,9 @@ html, body {
 .indias-first-abrasive {
   align-self: stretch;
   position: relative;
+  font-family: 'Basement Grotesque', sans-serif;
+  left:100px;
   font-weight: 900;
-  font-family: var(--font-basement-grotesque);
   text-align: left;
   backdrop-filter: blur(26.3px);
 }
