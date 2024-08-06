@@ -66,7 +66,7 @@ const FrameComponent = ({ className = "" }) => {
             <div className="download-container">
               <img className="download-button-icon" alt="" src="/frame-1.svg" />
             </div>
-            <b className="download-boucher">Download Boucher</b>
+            <b className="download-boucher">Download Brochure</b>
           </button>
         </div>
       </div>
