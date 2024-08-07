@@ -31,11 +31,6 @@ const WaterContent = ({ className = "" }) => {
               src="/rectangle-2@2x.png"
             />
             <img
-              className="element-part-icon3"
-              alt=""
-              src="/rectangle-3@2x.png"
-            />
-            <img
               className="element-part-icon4"
               alt=""
               src="/rectangle-4@2x.png"
@@ -93,26 +88,12 @@ const WaterContent = ({ className = "" }) => {
               alt=""
               src="/rectangle-13@2x.png"
             />
-            <img className="group-icon3" alt="" src="/group-2@2x.png" />
-            <img className="group-icon4" alt="" src="/group-3@2x.png" />
-            <img className="group-icon5" alt="" src="/group-4@2x.png" />
-            <img className="group-icon6" alt="" src="/group-5@2x.png" />
-            <img className="group-icon7" alt="" src="/group-6@2x.png" />
-            <img className="group-icon8" alt="" src="/group-7@2x.png" />
             <img
               className="rectangle-icon1"
               loading="lazy"
               alt=""
               src="/rectangle-14@2x.png"
             />
-            <div className="group-group">
-              <img className="group-icon9" alt="" src="/group-8@2x.png" />
-              <img
-                className="front-view-icon"
-                alt=""
-                src="/rectangle-15@2x.png"
-              />
-            </div>
             <div className="katana-sj150-overview">KATANA SJ150 OVERVIEW</div>
             <div className="sj150">SJ150</div>
             <img className="front-view-1" alt="" src="/front-view-1@2x.png" />
@@ -121,7 +102,6 @@ const WaterContent = ({ className = "" }) => {
         <div className="group3">
           <div className="group4">
             <div className="group5">
-
               <div className="component-21-parent">
                 <Component8 />
                 <Component7 />
@@ -136,12 +116,12 @@ const WaterContent = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      </div>
-      );
+    </div>
+  );
 };
 
-      WaterContent.propTypes = {
-        className: PropTypes.string,
+WaterContent.propTypes = {
+  className: PropTypes.string,
 };
 
-      export default WaterContent;
+export default WaterContent;

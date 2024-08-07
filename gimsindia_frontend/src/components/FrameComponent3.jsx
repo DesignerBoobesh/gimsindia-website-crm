@@ -41,6 +41,7 @@ const FrameComponent3 = ({ className = "" }) => {
         </div>
       </div>
       <div className="frame-parent6">
+        <br />
         <div className="group-container">
           <img className="group-icon19" alt="" src="/group-18.svg" />
           <div className="our-clients">OUR CLIENTS</div>

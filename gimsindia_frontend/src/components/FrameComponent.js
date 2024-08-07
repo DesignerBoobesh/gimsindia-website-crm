@@ -7,22 +7,35 @@ const FrameComponent = ({ className = "" }) => {
     <section className={`footer-content-wrapper ${className}`}>
       <div className="footer-content">
         <div className="footer-top">
-          <img className="logo-icon" loading="lazy" alt="" src="/logo1.svg" />
-          <div className="footer-divider" />
           <div className="footer-information">
-            <div className="company-details">
-              <div className="company-name">
-                <div className="guhan-industrial-and-container">
-                  <p className="guhan-industrial-and">
-                    Guhan Industrial and manufacturing
-                  </p>
-                  <p className="guhan-industrial-and">{`Solution pvt ltd `}</p>
-                </div>
+            <div className="guhan-industrial-and-container">
+              <img
+                className="logo-icon"
+                loading="lazy"
+                alt=""
+                src="/logo1.svg"
+              />
+              <div className="footer-divider"></div>
+              <div>
+                <p className="guhan-industrial-and">
+                  Guhan Industrial and manufacturing
+                </p>
+                <p className="guhan-industrial-and">Solution pvt ltd</p>
               </div>
-              <MenuButton />
             </div>
           </div>
+          <MenuButton />
         </div>
+
+        <div className="main-content">
+          <div>
+            <h1>Katana Series</h1>
+            <p>Explore the suspension</p>
+            <p>Katana Series</p>
+            <button>Download Brochure</button>
+          </div>
+        </div>
+
         <div className="product-showcase">
           <div className="showcase-content">
             <div className="product-highlight">
@@ -34,15 +47,15 @@ const FrameComponent = ({ className = "" }) => {
               />
               <div className="katana">{`KATANA `}</div>
               <div className="frame-parent4">
-                <div className="group-parent">
+                {/* <div className="group-parent">
                   <img className="group-icon1" alt="" src="/group1@2x.png" />
                   <div className="frame-child" />
                   <div className="frame-item" />
-                </div>
-                <div className="frame-inner" />
+                </div> */}
+                {/* <div className="frame-inner" />
                 <div className="ellipse-div" />
                 <div className="frame-child1" />
-                <div className="frame-child2" />
+                <div className="frame-child2" /> */}
                 <img
                   className="mask-group-icon"
                   loading="lazy"
@@ -52,22 +65,28 @@ const FrameComponent = ({ className = "" }) => {
                 <img className="r6-2-icon" alt="" src="/r6-2@2x.png" />
               </div>
             </div>
-            <div className="series">Series</div>
-            <div className="slogan-container">
-              <div className="explore-the-suspension-tech-parent">
-                <div className="explore-the-suspension">
-                  Explore the suspension tech
+            <div className="series-demo">
+              <div className="series">Series</div>
+              <div className="slogan-container">
+                <div className="explore-the-suspension-tech-parent">
+                  <div className="explore-the-suspension">
+                    Explore the suspension tech
+                  </div>
+                  <div className="katana-series">Katana Series</div>
                 </div>
-                <div className="katana-series">Katana Series</div>
               </div>
+              <button className="brochure-download">
+                <div className="download-container">
+                  <img
+                    className="download-button-icon"
+                    alt=""
+                    src="/frame-1.svg"
+                  />
+                </div>
+                <b className="download-boucher">Download Brochure</b>
+              </button>
             </div>
           </div>
-          <button className="brochure-download">
-            <div className="download-container">
-              <img className="download-button-icon" alt="" src="/frame-1.svg" />
-            </div>
-            <b className="download-boucher">Download Brochure</b>
-          </button>
         </div>
       </div>
     </section>

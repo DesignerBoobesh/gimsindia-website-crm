@@ -1,20 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* General Styling */
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
+  font-size: 16px; /* Ensure a base font size for rem units */
+  zoom: 85%;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+.product {
+  font-size: 4.375rem;
+  font-weight: 700;
 }
 
 .water-ripple-over-white-backgr {
   width: 100%;
   height: 629px;
   position: absolute;
-  margin: 0 !important;
   right: 0;
   bottom: 0;
   left: 0;
@@ -22,195 +26,174 @@ html, body {
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .group-icon {
-  width: 1384px;
+  width: 100%;
+  max-width: 1384px;
   position: relative;
   max-height: 100%;
   display: none;
-  max-width: 100%;
   z-index: 2;
 }
+
 .r6-3,
 .web-page-child {
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .web-page-child {
   width: 100%;
-  height: 1304px;
+  height: auto;
   position: absolute;
-  margin: 0 !important;
   top: 0;
   right: 0;
   left: 0;
   overflow: hidden;
   z-index: 4;
 }
+
 .r6-3 {
-  width: 944.8px;
-  height: 714.7px;
+  width: 100%;
+  max-width: 944.8px;
+  height: auto;
   position: relative;
   display: none;
   z-index: 5;
 }
+
 .indias-first-abrasive {
-  align-self: stretch;
   position: relative;
-  font-family: 'Basement Grotesque', sans-serif;
-  left:100px;
+  font-family: "Basement Grotesque", sans-serif;
+  margin-top: -200px;
+  left: 6.25rem; /* Converted 100px to rem */
   font-weight: 900;
   text-align: left;
   backdrop-filter: blur(26.3px);
 }
+
 .x-better-than {
-  align-self: stretch;
   position: relative;
-  font-size: 42.4px;
+  font-size: 2.65rem;
   font-weight: 500;
 }
-.katana-waterjet-advantage {
-  margin: 0;
-}
+
 .katana-waterjet-advantage-container {
-  margin: 0;
-  width: 930px;
+  width: 100%;
+  max-width: 930px;
   position: relative;
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
 }
+
 .advantage-highlight {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 0 var(--padding-xl);
-  font-size: 33px;
+  font-size: 2.0625rem;
   color: var(--color-white);
 }
+
 .value-proposition,
 .value-proposition-content {
-  align-self: stretch;
   display: flex;
+  margin-top: 150px;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
+
 .value-proposition-content {
   padding: 0 var(--padding-61xl);
   gap: var(--gap-5xl);
   z-index: 3;
 }
+
 .value-proposition {
-  padding: 0 0 91px;
+  padding: 0 0 5.6875rem; /* Converted 91px to rem */
   box-sizing: border-box;
-  gap: 63px;
+  gap: 3.9375rem; /* Converted 63px to rem */
   max-width: 100%;
   text-align: center;
-  font-size: 63.1px;
+  font-size: 3.94375rem;
   color: var(--color-deepskyblue-100);
   font-family: var(--font-poppins);
 }
+
 .web-page-item {
   width: 100%;
-  height: 1750px;
+  height: auto;
   position: absolute;
-  margin: 0 !important;
-  top: 2271px;
+  top: 142.9375rem; /* Converted 2271px to rem */
   right: 0;
   left: 0;
-  max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 3;
 }
+
 .b05bb3-480d-4dba-a870-32ba9287-icon {
   position: absolute;
   top: 0;
-  left: 328px;
-  width: 1770px;
-  height: 2166px;
+  left: 20.5rem; /* Converted 328px to rem */
+  width: 100%;
+  max-width: 1770px;
+  height: auto;
   object-fit: cover;
 }
-.b05bb3-480d-4dba-a870-32ba9287-icon1 {
-  position: absolute;
-  top: 58px;
-  left: -218px;
-  width: 710px;
-  height: 800px;
-  object-fit: contain;
-}
-.b05bb3-480d-4dba-a870-32ba9287-icon2 {
-  position: absolute;
-  top: 858px;
-  left: -139px;
-  width: 1244px;
-  height: 1401.8px;
-  object-fit: contain;
-}
+
 .water-bg,
 .web-page-inner {
   width: 100%;
-  height: 2260px;
+  height: auto;
   position: absolute;
-  margin: 0 !important;
   right: 0;
-  bottom: 4438px;
+  bottom: 277.375rem; /* Converted 4438px to rem */
   left: 0;
   flex-shrink: 0;
 }
-.web-page-inner {
-  height: 1257px;
-  bottom: 3543px;
-  max-width: 100%;
-  overflow: hidden;
-  z-index: 2;
-}
-.water-container,
-.water-container-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+
 .water-container-parent {
   padding: 0 0 var(--padding-8xs);
+  height: auto;
   box-sizing: border-box;
   gap: var(--gap-11xl);
 }
+
 .union-icon {
   width: 100%;
-  height: 1350px;
+  height: auto;
   position: absolute;
-  margin: 0 !important;
   right: 0;
-  bottom: 629px;
+  bottom: 39.3125rem; /* Converted 629px to rem */
   left: 0;
-  max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 3;
 }
+
 .product {
-  margin: 0;
   position: relative;
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
 }
+
 .footer-menu-pair {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .waterjet-models {
   position: relative;
 }
+
 .footer-menu-column-pair {
   display: flex;
   flex-direction: row;
@@ -218,15 +201,13 @@ html, body {
   justify-content: flex-start;
   padding: var(--padding-8xs) var(--padding-7xs) var(--padding-8xs) 0;
 }
+
 .shop,
 .software {
   position: relative;
   display: inline-block;
-  min-width: 106px;
 }
-.shop {
-  min-width: 62px;
-}
+
 .footer-menu-column,
 .footer-menu-pair-parent {
   display: flex;
@@ -234,30 +215,29 @@ html, body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .footer-menu-column {
   align-self: stretch;
   gap: var(--gap-5xs);
   font-size: var(--font-size-5xl);
   color: var(--color-black);
 }
+
 .footer-menu-pair-parent {
-  width: 425px;
+  width: 100%;
+  max-width: 425px;
   gap: var(--gap-6xl);
-  max-width: 100%;
 }
+
 .waterjet-cutting-wrapper {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   padding: var(--padding-8xs) 0;
 }
-.d-printing {
-  position: relative;
-  display: inline-block;
-  min-width: 128px;
-}
+
+.d-printing,
 .d-design,
 .lathe,
 .milling,
@@ -265,28 +245,9 @@ html, body {
 .welding {
   position: relative;
   display: inline-block;
-  min-width: 66px;
 }
-.d-design,
-.milling,
-.spm,
-.welding {
-  min-width: 76px;
-}
-.d-design,
-.spm,
-.welding {
-  min-width: 98px;
-}
-.d-design,
-.spm {
-  min-width: 120px;
-}
-.spm {
-  min-width: 49px;
-}
+
 .frame-container {
-  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -294,12 +255,14 @@ html, body {
   font-size: var(--font-size-5xl);
   color: var(--color-black);
 }
+
 .footer-menu,
 .material-gallery-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
+
 .footer-menu {
   align-self: stretch;
   justify-content: space-between;
@@ -308,73 +271,45 @@ html, body {
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .material-gallery-wrapper {
   justify-content: flex-start;
   padding: 0;
 }
-.about-us,
-.articles,
-.faq,
-.how-to,
-.reviews {
-  position: relative;
-  display: inline-block;
-  min-width: 48px;
-}
-.about-us,
-.articles,
-.how-to,
-.reviews {
-  min-width: 96px;
-}
-.about-us,
-.articles,
-.how-to {
-  min-width: 83px;
-}
-.about-us,
-.articles {
-  min-width: 88px;
-}
-.about-us {
-  min-width: 107px;
-}
+
 .footer-menu-parent {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-31xl);
-  max-width: 100%;
+  width: 100%;
   z-index: 4;
 }
-.frame-section,
-.web-page {
-  display: flex;
-  justify-content: flex-start;
-  box-sizing: border-box;
-}
+
 .frame-section {
-  align-self: stretch;
-  flex-direction: row;
+  display: flex;
+  width: 100%;
+  /* margin-top: -400px; */
+  padding-bottom: 180px;
+  justify-content: center;
   align-items: flex-start;
-  padding: 0 0 95px;
-  max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-26xl);
+  font-size: 1.625rem;
   color: var(--color-deepskyblue-100);
   font-family: var(--font-poppins);
 }
+
 .web-page {
   width: 100%;
+  height: auto;
   position: relative;
   background-color: var(--color-black);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  gap: 195px;
+  padding: 1.25rem; /* Converted 20px to rem */
+  gap: 12.1875rem; /* Converted 195px to rem */
   line-height: normal;
   letter-spacing: normal;
   max-width: 100%;
@@ -385,6 +320,7 @@ html, body {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .value-proposition-content {
     padding-left: var(--padding-21xl);
@@ -393,7 +329,7 @@ html, body {
   }
   .value-proposition {
     gap: 31px;
-    padding-bottom: 59px;
+    padding-bottom: 3.6875rem; /* Converted 59px to rem */
     box-sizing: border-box;
   }
   .footer-menu {
@@ -402,50 +338,26 @@ html, body {
     box-sizing: border-box;
   }
   .frame-section {
-    padding-bottom: var(--padding-43xl);
-    box-sizing: border-box;
-  }
-  .web-page {
-    gap: var(--gap-78xl);
-  }
-}
-@media screen and (max-width: 825px) {
-  .indias-first-abrasive {
-    font-size: var(--font-size-31xl);
-  }
-  .x-better-than {
-    font-size: var(--font-size-15xl);
-  }
-  .katana-waterjet-advantage-container {
-    font-size: var(--font-size-7xl);
-  }
-  .value-proposition {
-    padding-bottom: var(--padding-19xl);
-    box-sizing: border-box;
-  }
-  .product {
-    font-size: var(--font-size-17xl);
-  }
-  .frame-section {
-    padding-bottom: var(--padding-21xl);
+    padding-bottom: 5.9375rem; /* Converted 95px to rem */
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
   .indias-first-abrasive {
-    font-size: 38px;
+    font-size: 2.375rem; /* Converted 38px to rem */
   }
   .x-better-than {
-    font-size: 25px;
+    font-size: 1.5625rem; /* Converted 25px to rem */
   }
   .katana-waterjet-advantage-container {
-    font-size: var(--font-size-xl);
+    font-size: 1rem; /* Use base font size */
   }
   .value-proposition {
-    gap: var(--gap-base);
+    gap: 0.9375rem; /* Converted 15px to rem */
   }
   .product {
-    font-size: var(--font-size-8xl);
+    font-size: 3.375rem; /* Converted 54px to rem */
   }
   .about-us,
   .articles,
@@ -461,12 +373,12 @@ html, body {
   .spm,
   .waterjet-models,
   .welding {
-    font-size: var(--font-size-lgi);
+    font-size: 1.3125rem; /* Converted 21px to rem */
   }
   .footer-menu-parent {
-    gap: var(--gap-6xl);
+    gap: 3.75rem; /* Converted 60px to rem */
   }
   .web-page {
-    gap: var(--gap-30xl);
+    gap: 18.75rem; /* Converted 300px to rem */
   }
 }

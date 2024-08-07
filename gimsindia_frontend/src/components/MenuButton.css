@@ -35,6 +35,7 @@
 }
 .menu-button {
   height: 90.5px;
+  margin-top: -8px;
   width: 893.8px;
   position: relative;
   max-width: 100%;
@@ -42,10 +43,17 @@
 }
 
 .selected {
-  background: linear-gradient(112.29deg, #89d7ff, #20b1fb); /* Example selected background color */
+  background: linear-gradient(
+    112.29deg,
+    #89d7ff,
+    #20b1fb
+  ); /* Example selected background color */
   color: white; /* Example selected text color */
 }
 
-.component-7:hover, .component-8:hover, .component-9:hover, component-10:hover {
+.component-7:hover,
+.component-8:hover,
+.component-9:hover,
+component-10:hover {
   background-color: #f0f0f0; /* Example hover background color */
 }

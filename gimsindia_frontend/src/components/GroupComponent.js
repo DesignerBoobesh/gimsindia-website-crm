@@ -22,7 +22,7 @@ const GroupComponent = ({ className = "" }) => {
       <div className="contact-form-fields-parent">
         <div className="contact-form-fields">
           <div className="contact-form-title">
-            <h2 className="contact-form">Contact form</h2>
+            <h2 className="contact-form"></h2>
           </div>
           <div className="question-prompt">
             <div className="you-have-questions">
@@ -32,19 +32,25 @@ const GroupComponent = ({ className = "" }) => {
           </div>
           <div className="form-field-rows">
             <div className="form-field-row">
-              <label htmlFor="name">Name <span className="span">*</span></label>
+              <label htmlFor="name">
+                Name <span className="span">*</span>
+              </label>
               <input type="text" id="name" name="name" required />
             </div>
           </div>
           <div className="form-field-rows">
             <div className="form-field-row">
-              <label htmlFor="email">Email <span className="span">*</span></label>
+              <label htmlFor="email">
+                Email <span className="span">*</span>
+              </label>
               <input type="email" id="email" name="email" required />
             </div>
           </div>
           <div className="form-field-rows2">
             <div className="form-field-row">
-              <label htmlFor="phone">Phone <span className="span">*</span></label>
+              <label htmlFor="phone">
+                Phone <span className="span">*</span>
+              </label>
               <input type="tel" id="phone" name="phone" required />
             </div>
           </div>
@@ -70,29 +76,23 @@ const GroupComponent = ({ className = "" }) => {
               />
             </div>
             <div className="we-use-your-container">
-              <p className="we-use-your">
-                We use your data exclusively for your enquiry from this contact
-                form, your data will not be used for any other purpose and in
-                particular
-              </p>
-              <p className="we-use-your">
-                will not be passed on to third parties. I hereby declare my
-                consent to the collection of my above-mentioned data for the
-                purpose of
-              </p>
-              <p className="we-use-your">contacting me via this form</p>
+              We use your data exclusively for your enquiry from this contact
+              form, your data will not be used for any other purpose and in
+              particular will not be passed on to third parties. I hereby
+              declare my consent to the collection of my above-mentioned data
+              for the purpose of contacting me via this form
             </div>
             <div>
-            <div className="mandatory-field">* Mandatory field</div>
+              <div className="mandatory-field">* Mandatory fields</div>
             </div>
           </div>
-          </div>
-          <div className="submit-button">
-            <button className="submit-container">
-              <b className="submit">Submit</b>
-            </button>
-          </div>
         </div>
+        <div className="submit-button">
+          <button className="submit-container">
+            <b className="submit">Submit</b>
+          </button>
+        </div>
+      </div>
     </section>
   );
 };

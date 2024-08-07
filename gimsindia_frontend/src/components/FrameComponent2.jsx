@@ -1,6 +1,7 @@
 import Component1 from "./Component1";
 import PropTypes from "prop-types";
 import "./FrameComponent2.css";
+import FrameComponent3 from "./FrameComponent3";
 
 const FrameComponent2 = ({ className = "" }) => {
   const images = [
@@ -27,18 +28,21 @@ const FrameComponent2 = ({ className = "" }) => {
   ];
 
   return (
-    <div className={`frame-wrapper1 ${className}`}>
-      <div className="scrolling-wrapper">
-        {[...images, ...images].map((image, index) => (
-          <Component1
-            key={index}
-            metal878346519201={image.src}
-            rectangle39479="/rectangle-39479.svg"
-            metalIndustry={image.text}
-          />
-        ))}
+    <>
+      <div className={`frame-wrapper1 ${className}`}>
+        <div className="scrolling-wrapper">
+          {[...images, ...images].map((image, index) => (
+            <Component1
+              key={index}
+              metal878346519201={image.src}
+              rectangle39479="/rectangle-39479.svg"
+              metalIndustry={image.text}
+            />
+          ))}
+        </div>
+        <FrameComponent3 />
       </div>
-    </div>
+    </>
   );
 };
 

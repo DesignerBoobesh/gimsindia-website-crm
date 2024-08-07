@@ -6,7 +6,7 @@ const FrameComponent4 = ({ className = "" }) => {
     <section className={`frame-parent10 ${className}`}>
       <div className="frame-parent11">
         <div className="adderss-parent">
-          <h2 className="adderss">ADDERSS</h2>
+          <h2 className="adderss">ADDRESS</h2>
           <div className="guhan-industrial-and-manufactu-parent">
             <div className="guhan-industrial-and-container1">
               <p className="guhan-industrial-and1">
@@ -24,7 +24,7 @@ const FrameComponent4 = ({ className = "" }) => {
           <h2 className="adderss">CONTACT</h2>
           <div className="admin-email">
             <div className="admingimsindiain">admin@gimsindia.in</div>
-            <div className="email-content">9840993730</div>
+            <div className="email-content">+91 9840993730</div>
           </div>
         </div>
         <div className="social">

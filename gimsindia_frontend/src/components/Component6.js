@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
-import "./Component6.css";
-import React, { useState } from 'react';
-
+import "./Component5.css";
+import React, { useState } from "react";
 
 const Component6 = ({ className = "" }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -9,29 +8,25 @@ const Component6 = ({ className = "" }) => {
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
+
   return (
-    <div className={`component-25 ${className}`} onClick={handleClick}>
-      <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-      <div className="front4">
-          <div className="front-inner" />
-          <div className="center-content">
-            <div className="div2">03</div>
-            <div className="stainless-steel-catcher-container1">
-              <p className="stainless-steel-catcher">Precision Traverse</p>
-              <p className="stainless-steel-catcher">System</p>
-            </div>
+    <div className={`component-27 ${className}`} onClick={handleClick}>
+      <div className={`card ${isFlipped ? "flipped" : ""}`}>
+        <div className="front2">
+          <div className="front-child" />
+          <div className="div">03</div>
+          <div className="handley-teach-pendant">
+            <p>Precision Traverse</p>
+            <p>System</p>
           </div>
         </div>
-        <div className="back5">
-          <div className="back-inner" />
-          <div className="stainless-steel-catcher-container">
-            <p className="stainless-steel-catcher">
-            Precision-grade ball screw provides
+        <div className="back3">
+          <div className="back-child" />
+          <div className="compact-teach-pendant-container">
+            <p>
+              Precision-grade ball screw provides excellent positional accuracy,
+              repeatability, and low backlash.
             </p>
-            <p className="stainless-steel-catcher">
-            excellent positional accuracy,
-            </p>
-            <p className="stainless-steel-catcher">repeatability, and low backlash.</p>
           </div>
         </div>
       </div>
