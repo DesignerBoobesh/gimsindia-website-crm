@@ -1,9 +1,9 @@
 .component-21 {
   height: 292.5px;
   flex: 1 1;
-  position: relative;
-  min-width: 355px;
-  max-width: 52%;
+  min-width: 400px;
+  display: grid;
+  padding-top: -100px;
   text-align: center;
   font-size: var(--font-size-4xl-1);
   color: var(--color-white);
@@ -24,7 +24,8 @@
   transform: rotateY(180deg);
 }
 
-.front4, .back5 {
+.front4,
+.back5 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -37,7 +38,6 @@
   padding: 20px; /* Add padding to ensure the text doesn't touch the edges */
   box-sizing: border-box;
 }
-
 
 .back5 {
   transform: rotateY(180deg);
@@ -139,14 +139,16 @@
   }
 }
 
-.stainless-steel-catcher, .high-strength-tungsten-carbide {
+.stainless-steel-catcher,
+.high-strength-tungsten-carbide {
   margin: 0;
   word-wrap: break-word; /* Ensure long words are wrapped */
   overflow: hidden;
 }
 
 @media screen and (max-width: 450px) {
-  .stainless-steel-catcher, .high-strength-tungsten-carbide-container {
+  .stainless-steel-catcher,
+  .high-strength-tungsten-carbide-container {
     font-size: var(--font-size-lg);
   }
 }

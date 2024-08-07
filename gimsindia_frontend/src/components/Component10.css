@@ -3,13 +3,16 @@
   position: relative;
   font-weight: 700;
   color: inherit;
+  /* font-family: "Basement Grotesque", sans-serif; */
   display: inline-block;
   min-width: 97px;
 }
 .component-9 {
   backdrop-filter: blur(62.6px);
   border-radius: 48.16px;
+  /* margin-top: -600px; */
   display: flex;
+  /* font-family: "Basement Grotesque", sans-serif; */
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -17,5 +20,4 @@
   text-align: left;
   font-size: var(--font-size-4xl-1);
   color: var(--color-gray-100);
-  font-family: var(--font-poppins);
 }

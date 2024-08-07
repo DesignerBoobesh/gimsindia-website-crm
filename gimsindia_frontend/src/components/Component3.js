@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import './Component3.css';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import "./Component5.css";
 
-const Component3 = ({ className = '' }) => {
+const Component3 = ({ className = "" }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -10,26 +10,23 @@ const Component3 = ({ className = '' }) => {
   };
 
   return (
-    <div className={`component-31 ${className}`} onClick={handleClick}>
-      <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-        <div className="front4">
-          <div className="front-inner" />
-          <div className="div2">06</div>
-          <div className="stainless-steel-catcher-container1">
-            <p className="stainless-steel-catcher">Stainless steel</p>
-            <p className="stainless-steel-catcher">Catcher tank</p>
+    <div className={`component-27 ${className}`} onClick={handleClick}>
+      <div className={`card ${isFlipped ? "flipped" : ""}`}>
+        <div className="front2">
+          <div className="front-child" />
+          <div className="div">06</div>
+          <div className="handley-teach-pendant">
+            <p>Stainless Steel</p>
+            <p>Catcher Tank</p>
           </div>
         </div>
-        <div className="back5">
-          <div className="back-inner" />
-          <div className="stainless-steel-catcher-container">
-            <p className="stainless-steel-catcher">
-              Stainless steel catcher tank offers a
+        <div className="back3">
+          <div className="back-child" />
+          <div className="compact-teach-pendant-container">
+            <p>
+              Stainless steel catcher tank offers a strong build, effortless
+              maintenance, and a 100-liter capacity.
             </p>
-            <p className="stainless-steel-catcher">
-              strong build, effortless maintenance
-            </p>
-            <p className="stainless-steel-catcher">and a 100-liter capacity.</p>
           </div>
         </div>
       </div>

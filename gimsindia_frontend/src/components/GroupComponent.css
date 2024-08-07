@@ -28,6 +28,7 @@
   width: 443px;
   position: relative;
   font-weight: 900;
+  font-family: "Basement Grotesque", sans-serif;
   display: inline-block;
   backdrop-filter: blur(32.76px);
   max-width: 100%;
@@ -174,12 +175,13 @@
 .mandatory-field,
 .we-use-your-container {
   position: absolute;
+  opacity: 0.8;
   top: 0;
   left: 35px;
 }
 .mandatory-field {
-  top: 166px;
-  left: 0;
+  top: 120px;
+  left: 20px;
   font-size: var(--font-size-5xl);
   color: var(--color-tomato-200);
   display: inline-block;
@@ -235,6 +237,7 @@
 .contact-form-fields-parent,
 .group-section {
   display: flex;
+  /* margin-top: -00px; */
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
@@ -258,9 +261,10 @@
 }
 .group-section {
   width: 150%;
+  /* margin-top: -1000px; */
   margin: 0 !important;
   position: absolute;
-  bottom: 1476.5px;
+  bottom: 2076.5px;
   align-items: center;
   padding: var(--padding-292xl) var(--padding-xl) var(--padding-453xl-5)
     var(--padding-41xl);
@@ -340,7 +344,9 @@ textarea.message-input {
   input[type="email"],
   input[type="tel"],
   textarea.message-input {
-    font-size: var(--font-size-lgi); /* Further adjust font size for even smaller screens */
+    font-size: var(
+      --font-size-lgi
+    ); /* Further adjust font size for even smaller screens */
     padding: var(--padding-xs) var(--padding-sm); /* Further adjust padding for smaller screens */
   }
 }

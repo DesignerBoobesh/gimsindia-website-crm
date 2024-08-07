@@ -1,36 +1,74 @@
 .footer-divider,
 .logo-icon {
-  position: absolute;
+  position: relative; /* Changed from absolute */
   margin: 0 !important;
   z-index: 8;
 }
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -180px;
+}
+
 .logo-icon {
   height: 63.6px;
   width: 60.7px;
-  bottom: 0.2px;
-  left: 24.1px;
   overflow: hidden;
-  flex-shrink: 0
+  flex-shrink: 0;
 }
 .footer-divider {
   height: 64.5px;
   width: 1px;
-  bottom: -0.7px;
-  left: 100.1px;
   border-right: 1px solid var(--color-darkslategray);
   box-sizing: border-box;
 }
 .guhan-industrial-and {
   margin: 0;
+  text-align: left; /* Ensure text is left-aligned */
 }
 .guhan-industrial-and-container {
-  position: relative;
+  display: flex;
+  align-items: center; /* Align items to the center vertically */
+  gap: 10px; /* Space between logo and text */
   font-weight: 800;
   z-index: 8;
 }
 .company-name {
   display: flex;
-  flex-direction: column;
+  align-items: center; /* Align items to the center vertically */
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.footer-information {
+  flex: 1;
+  width: 100%;
+  padding-right: 340px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align the whole container to the left */
+  align-items: center;
+}
+.footer-top {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+}
+
+.guhan-industrial-and {
+  margin: 0;
+}
+.guhan-industrial-and-container {
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 800;
+  z-index: 8;
+}
+.company-name {
+  display: flex;
+  width: auto;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-8xl) 0 0;
@@ -41,7 +79,6 @@
   width: 1428.3px;
   justify-content: space-between;
   gap: var(--gap-xl);
-  
 }
 .company-details,
 .footer-information,
@@ -51,7 +88,7 @@
   align-items: flex-start;
   max-width: 100%;
   top: 50px;
-  left:20px
+  left: 20px;
 }
 .footer-information {
   flex: 1;
@@ -64,12 +101,12 @@
   position: relative;
 }
 .subtract-icon {
-  height: 1304px;
-  width: 1528px;
+  height: 1504px;
+  width: 1728px;
   position: absolute;
   margin: 0 !important;
-  top: -220px;
-  right: -681px;
+  top: -270px;
+  right: -881px;
   border-radius: 77.05px;
   z-index: 6;
 }
@@ -87,7 +124,7 @@
   height: 288.9px;
   width: 1336.8px;
   position: absolute;
-  font-family: 'Basement Grotesque', sans-serif;
+  font-family: "Basement Grotesque", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 281.621px;
@@ -187,15 +224,15 @@ text-fill-color: transparent; */
 .r6-2-icon {
   position: absolute;
   top: 157px;
-  left: 812px;
+  left: 1012px;
   width: 619.3px;
-  height: 849.4px;
+  height: 949.4px;
   object-fit: cover;
   z-index: 9;
 }
 .r6-2-icon {
   top: 286.1px;
-  left: 418px;
+  left: 540px;
   width: 985px;
   height: 714.7px;
   z-index: 10;
@@ -229,20 +266,28 @@ text-fill-color: transparent; */
   justify-content: flex-start;
   max-width: 100%;
 }
+
+.series-demo {
+  display: grid;
+  justify-content: start;
+}
 .series {
   align-self: stretch;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 164px;
   position: relative;
+  margin-left: -320px;
+
   font-size: var(--font-size-117xl-4);
   font-weight: 900;
-  left: 30px;
-  display: inline-block;
+  display: flex;
+  justify-content: start;
   -webkit-text-stroke: 2.7px #fff;
   z-index: 8;
 }
 .explore-the-suspension {
   line-height: 47.2px;
+  white-space: nowrap;
 }
 .explore-the-suspension,
 .katana-series {
@@ -255,13 +300,16 @@ text-fill-color: transparent; */
 .explore-the-suspension-tech-parent,
 .showcase-content,
 .slogan-container {
-  display: flex;
+  display: grid;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
+  width: auto;
 }
+
 .explore-the-suspension-tech-parent {
   flex: 1;
+  margin-left: -350px;
+  width: 100%;
   flex-direction: column;
   gap: var(--gap-10xs-3);
 }
@@ -290,7 +338,6 @@ text-fill-color: transparent; */
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  
 }
 .download-container {
   display: flex;
@@ -319,16 +366,14 @@ text-fill-color: transparent; */
   box-sizing: border-box;
   gap: var(--gap-3xs-6);
   max-width: 100%;
-  z-index: 8;
-  margin-top: -194.5px;
-  position: relative; 
-  left: 30px;   
+  z-index: 10;
+  margin-top: 120px;
+  margin-left: -325px;
 }
 
 .product-showcase {
-  width: 1336.8px;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 100%;
+  justify-content: center;
   min-height: 855px;
   margin-top: -0.5px;
   font-size: var(--font-size-262xl-6);
@@ -339,8 +384,10 @@ text-fill-color: transparent; */
 .footer-content-wrapper,
 .product-showcase {
   display: flex;
-  align-items: flex-start;
-  max-width: 100%;
+  padding-top: 40px;
+  align-items: center;
+  margin-left: -200px;
+  width: 100%;
 }
 .footer-content {
   flex: 1;
@@ -348,7 +395,7 @@ text-fill-color: transparent; */
   justify-content: flex-start;
 }
 .footer-content-wrapper {
-  width: 1702.9px;
+  width: 100%;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 var(--padding-60xl) var(--padding-xl-2);
@@ -359,17 +406,11 @@ text-fill-color: transparent; */
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 1500px) {
-  .company-name {
-    display: none;
-  }
   .company-details {
     width: 1020.3px;
   }
 }
 @media screen and (max-width: 1200px) {
-  .guhan-industrial-and-container {
-    display: none;
-  }
   .showcase-content {
     padding-top: var(--padding-xl-5);
     padding-bottom: var(--padding-155xl);

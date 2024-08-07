@@ -6,7 +6,9 @@
   flex: 1;
   position: relative;
   font-size: inherit;
-  font-weight: 400;
+  /* make font thin */
+  font-weight: 100;
+  /* font-size: large; */
   font-family: inherit;
   text-shadow: 1px 0 0#edf7ff, 0 1px 0#edf7ff, -1px 0 0#edf7ff, 0-1px 0#edf7ff;
 }
@@ -138,12 +140,14 @@
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
+  height: auto;
+  padding-bottom: 100px;
 }
 .benefit-list {
   flex: 1;
   flex-direction: column;
   align-items: flex-end;
-  gap: var(--gap-62xl-5);
+  gap: var(--gap-62xl);
 }
 .key-benefits {
   align-self: stretch;
@@ -170,7 +174,7 @@
   .co2-savings,
   .multiple-industries-applicatio-container,
   .x-fastest-cutting-container {
-    font-size: var(--font-size-9xl);
+    font-size: var(--font-size-7xl);
   }
 }
 @media screen and (max-width: 450px) {

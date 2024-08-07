@@ -22,7 +22,6 @@ const WebPage = () => {
       <img className="group-icon" alt="" src="/group.svg" />
       <FrameComponent />
       <img className="web-page-child" alt="" src="/vector-59.svg" />
-      <div className="r6-3" />
       <section className="value-proposition">
         <div className="value-proposition-content">
           <div className="indias-first-abrasive">
@@ -39,7 +38,6 @@ const WebPage = () => {
           </div>
         </div>
         <KeyBenefits />
-        <FrameComponent1 />
       </section>
       <img className="web-page-item" alt="" src="/vector-591.svg" />
       <KatanaIntroduction />
@@ -68,8 +66,8 @@ const WebPage = () => {
         </div>
         <FrameComponent2 />
       </section>
+      <br />
       <img className="union-icon" alt="" src="/union.svg" />
-      <FrameComponent3 />
       <section className="frame-section">
         <div className="footer-menu-parent">
           <div className="footer-menu">
@@ -192,7 +190,7 @@ const WebPage = () => {
             </div>
             <div className="footer-menu-pair-parent">
               <div className="footer-menu-pair">
-                <h2 className="product">LERAN</h2>
+                <h2 className="product">LEARN</h2>
               </div>
               <div className="frame-container">
                 <div className="waterjet-cutting-wrapper">

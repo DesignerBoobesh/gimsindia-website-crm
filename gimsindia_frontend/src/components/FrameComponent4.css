@@ -15,7 +15,8 @@
   position: relative;
 }
 .sri-sai-nagar {
-  font-size: var(--font-size-9xl);
+  font-size: var(--font-size-xl);
+  opacity: 0.8;
   color: var(--color-whitesmoke);
 }
 .adderss-parent,
@@ -38,11 +39,14 @@
 }
 .admingimsindiain {
   position: relative;
+  font-size: x-large;
   white-space: nowrap;
 }
 .email-content {
   align-self: stretch;
   position: relative;
+  opacity: 0.8;
+  font-size: 24px;
 }
 .admin-email,
 .contact-info {
@@ -108,6 +112,7 @@
 .copyright,
 .frame-parent10 {
   display: flex;
+  padding-bottom: 30px;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
@@ -164,7 +169,7 @@
   .admingimsindiain,
   .email-content,
   .sri-sai-nagar {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-xl);
   }
   .social-media {
     font-size: var(--font-size-8xl);

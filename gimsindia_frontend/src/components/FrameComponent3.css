@@ -91,15 +91,15 @@
   position: relative;
   max-width: 100%;
   z-index: 3;
-  left:90px
+  left: 90px;
 }
 .our-clients {
   height: 94px;
   width: 100%;
   position: absolute;
-  font-family: 'Basement Grotesque', sans-serif;
+  font-family: "Basement Grotesque", sans-serif;
   margin: 0 !important;
-  top: 152px;
+  top: 100px;
   left: 90px;
   font-weight: 900;
   display: inline-block;
@@ -137,7 +137,7 @@
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
-  left: 80px
+  left: 80px;
 }
 .wrapper {
   align-self: stretch;
@@ -202,7 +202,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 5;
-  left: 80px
+  left: 80px;
 }
 .client-logo-names {
   align-self: stretch;
@@ -266,7 +266,7 @@
   background-color: var(--color-white);
   overflow: hidden;
   flex-shrink: 0;
-  left: 80px
+  left: 80px;
 }
 .client-logo-pair-inner1 {
   flex: 1;
@@ -291,7 +291,7 @@
 .line {
   display: flex;
   align-items: flex-start;
-  max-width: 100%;
+  width: 100%;
 }
 .line {
   align-self: stretch;

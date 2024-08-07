@@ -1,6 +1,7 @@
 .component-35-child {
   width: 100%;
-  height: 1441px;
+  /* height fit content */
+  height: 100%;
   position: absolute;
   margin: 0 !important;
   top: -1px;
@@ -14,6 +15,7 @@
 .katana-series-specification {
   align-self: stretch;
   height: 94px;
+  font-family: "Basement Grotesque", sans-serif;
   position: relative;
   font-weight: 900;
   display: inline-block;
