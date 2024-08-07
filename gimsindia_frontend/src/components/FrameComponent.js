@@ -7,7 +7,7 @@ const FrameComponent = ({ className = "" }) => {
     <section className={`footer-content-wrapper ${className}`}>
       <div className="footer-content">
         <div className="footer-top">
-          <img className="logo-icon" loading="lazy" alt="" src="/logo.svg" />
+          <img className="logo-icon" loading="lazy" alt="" src="/logo1.svg" />
           <div className="footer-divider" />
           <div className="footer-information">
             <div className="company-details">
@@ -26,7 +26,7 @@ const FrameComponent = ({ className = "" }) => {
         <div className="product-showcase">
           <div className="showcase-content">
             <div className="product-highlight">
-              <img className="subtract-icon" alt="" src="/subtract.svg" />
+              <img className="subtract-icon" alt="" src="/subtract1.svg" />
               <img
                 className="product-highlight-child"
                 alt=""
